@@ -1,6 +1,6 @@
-# MET Office & BBC temperature scale colorthresholds 
+# MET Office & BBC temperature scale colour thresholds 
 
-MET Office & BBC temperature scale colorthres holds used for Mini Graph Card for Home Assistant Lovelace UI
+MET Office & BBC temperature scale colour thresholds used for Mini Graph Card for Home Assistant Lovelace UI
 
 
 ## Acknowledgements
@@ -72,3 +72,51 @@ color_thresholds:
     color: "#100002"
 
 ```
+## BBC 
+
+```
+color_thresholds:
+  - value: -22
+	color: "#1d469a"
+  - value: -16
+    color: "#1462a9"
+  - value: -11
+    color: "#1674b6"
+  - value: -16
+    color: "#368ac7"
+  - value: -3
+    color: "#3fa3da"
+  - value: 0
+    color: "#4ec0ee"
+  - value: 1
+    color: "#afdcd8"
+  - value: 3
+    color: "#a8d6ad"
+  - value: 5
+    color: "#9ed07f"
+  - value: 7
+    color: "#aed352"
+  - value: 9
+    color: "#d0d93e"
+  - value: 11
+    color: "#fcde04"
+  - value: 13
+    color: "#fbcb0c"
+  - value: 15
+    color: "#fcb716"
+  - value: 17
+    color: "#faa31a"
+  - value: 19
+    color: "#f68a1f"
+  - value: 21
+    color: "#f26a2f"
+  - value: 25
+    color: "#ec513a"
+  - value: 30
+    color: "#ed2a2a"
+  - value: 36
+    color: "#c32027"
+  - value: 41
+    color: "#9b1b1d"
+```
+
